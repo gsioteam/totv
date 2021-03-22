@@ -1,0 +1,23 @@
+{
+    "name": "theofficetv.com",
+    "url": "https://theofficetv.com/",
+    "index": "index.js",
+    "collections": [
+        "details.js",
+        "video.js"
+    ],
+    "search": {
+        "src": "search.js",
+        "data": {
+            "url": "https://theofficetv.com/search-for-movies-tv-shows-or-people?q={0}"
+        }
+    },
+    "categories": [
+        {
+            "title": "首页",
+            "id": "home",
+            "url": "https://theofficetv.com/movies",
+            "pageUrl": "https://theofficetv.com/titles/paginate?_token={1}&perPage=18&page={0}&order=mc_num_of_votesDesc&type=movie&minRating=&maxRating="
+        }
+    ]
+}
